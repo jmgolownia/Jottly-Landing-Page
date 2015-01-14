@@ -356,35 +356,34 @@ header div nav ul li:nth-child(4) {
 /*==== Footer Call to Action Section Styles ====*/
 
 .footer-cta {
-  height: 600px;
+  height: 700px;
+  box-shadow: 0px 700px rgba(38, 148, 217, 0.6) inset;
+  background: url('../images/handwriting.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #fff;
-  background: -moz-linear-gradient(left,  rgba(38,148,217,1) 0%, rgba(38,148,217,1) 36%, rgba(38,148,217,0.68) 49%, rgba(38,148,217,0.5) 56%, rgba(38,148,217,0) 67%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(38,148,217,1)), color-stop(36%,rgba(38,148,217,1)), color-stop(49%,rgba(38,148,217,0.68)), color-stop(56%,rgba(38,148,217,0.5)), color-stop(67%,rgba(38,148,217,0))); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(left,  rgba(38,148,217,1) 0%,rgba(38,148,217,1) 36%,rgba(38,148,217,0.68) 49%,rgba(38,148,217,0.5) 56%,rgba(38,148,217,0) 67%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(left,  rgba(38,148,217,1) 0%,rgba(38,148,217,1) 36%,rgba(38,148,217,0.68) 49%,rgba(38,148,217,0.5) 56%,rgba(38,148,217,0) 67%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(left,  rgba(38,148,217,1) 0%,rgba(38,148,217,1) 36%,rgba(38,148,217,0.68) 49%,rgba(38,148,217,0.5) 56%,rgba(38,148,217,0) 67%); /* IE10+ */
-  background: linear-gradient(to right,  rgba(38,148,217,1) 0%,rgba(38,148,217,1) 36%,rgba(38,148,217,0.68) 49%,rgba(38,148,217,0.5) 56%,rgba(38,148,217,0) 67%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2694d9', endColorstr='#002694d9',GradientType=1 ); /* IE6-9 */
 }
 
 .footer-cta h2 {
   text-align: left;
-  font-size: 4.75rem;
+  font-size: 7.0rem;
+  margin-top: 90px;
 }
 
 .footer-cta p {
   text-align: left;
   font-size: 2.5rem;
+  margin-top: 35px;
 }
 
-.footer-cta-image {
-  height: 600px;
-  width: 700px;
-  background-image: url('../images/handwriting.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left;
-  float: right;
+.footer-cta button {
+  background: #fff;
+  color: #2694D9;
+  font-size: 2.0rem;
+  height: 75px;
+  text-transform: none;
+  margin-top: 50px;
 }
 
 /*==== Footer Section Styles ====*/
@@ -397,10 +396,30 @@ footer {
 footer h4 {
   padding-top: 50px;
   font-size: 1.75rem;
+  font-weight: bold;
 }
 
 footer ul li {
   text-align: left;
+}
+
+footer .logo-social {
+  padding-top: 50px;
+}
+
+footer .logo-social .footer-logo {
+  height: 60px;
+}
+
+footer .logo-social img {
+  height: 50px;
+  padding: 0 3px 0 3px;
+}
+
+footer .logo-social .copyright {
+  display: block;
+  float: left;
+  margin-top: 80px;
 }
 
 
