@@ -61,21 +61,7 @@ header div nav ul li:nth-child(4) {
 }
 
 /* Larger than mobile */
-@media (max-width: 400px) {
 
-  .logo img {
-  margin-top: 10px;
-  display: inline-block;
-  text-align: center;
-  background: red;
-}
-
-  header {
-    background: #2694D9;
-    height: 100px;
-  }
-
-}
 
 /*==== Hero Image and Tagline Styles ====*/
 
