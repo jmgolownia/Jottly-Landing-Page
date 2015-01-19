@@ -1,0 +1,635 @@
+
+@media (max-width: 1100px) {
+  .benefits .benefit-middle img {
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 1020px) {
+  .get-started {
+    display: none;
+  }
+
+  .benefits .benefit-middle img {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+}
+
+
+/*--------------------------------*/
+
+@media (max-width: 950px) {
+
+  .app-bg .app-screen img {
+    width: 90%;
+    margin-top: 45px;
+  }
+
+  .how-works-header h2 {
+    line-height: 5rem;
+  }
+
+  .how-works {
+    height: 700px;
+  }
+
+  .benefits .benefit-middle img {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+  }
+
+  .other-benefits {
+    height: 800px;
+  }
+
+  .footer-cta h2 {
+    margin-top: 25px;
+  }
+
+  .testimonials {
+    height: 700px;
+  }
+
+  .other-benefits {
+    height: 750px;
+  }
+}
+
+/*--------------------------------*/
+
+@media (max-width: 860px) {
+  
+  header {
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+  }
+
+  .logo img {
+  display: inline-block;
+  text-align: center;
+  margin-top: 5px;
+  }
+
+  .navlinks .li1 {
+    display: none;
+  }
+
+  .navlinks ul {
+    display: block;
+    float: right;
+    margin-top: 10px;
+  }
+  
+  .hero {
+    height: 960px;
+    background-image: url('../images/collaboratejoyfully.png');
+    background-size: auto 960px;
+    background-position: center top;
+  }
+
+  .hero .tagline {
+    display: inline-block;
+    position: relative;
+    margin-top: 400px;
+  }
+
+  .hero .tagline h1 {
+    font-size: 7.5rem;     
+    color: #fff;
+  }
+
+  .hero .tagline h2 {
+    font-size: 2.5rem;
+    color: #fff;
+  }
+
+  .app-bg {
+   background: #99CC33;
+   height: 400px;
+ }
+
+ .app-bg .app-screen {
+  display: inline;
+  text-align: center;
+  margin-top: 70px;
+ }
+
+ .app-bg .app-screen img {
+  width: 100%;
+ }
+
+ .how-works-header h2 {
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+  }
+
+  .how-works-header h3 {
+    font-size: 2.75rem;
+    margin-bottom: 50px;
+  }
+
+  .how-works {
+  height: 650px;
+  background: #ECF0F1;
+  }
+
+  .benefits .one-half-column img {
+    width: 70%;
+  }
+
+  .footer-cta h2 {
+    margin-top: 130px;
+  }
+}
+
+/*--------------------------------*/
+
+@media (min-width : 550px) and (max-width : 860px) {
+  .hero {
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+   .hero .tagline h2 {
+    font-size: 2.25rem;
+    margin-top: 50px;
+    color: #fff;
+  }
+
+  .app-bg {
+   background: #99CC33;
+   height: 400px;
+  }
+
+ .app-bg .app-screen {
+  display: inline;
+  text-align: center;
+  margin-top: 70px;
+ }
+
+ .app-bg .app-screen img {
+  width: 100%;
+  margin-top: 80px;
+ }
+
+ .how-works {
+  height: 1400px;
+  background: #ECF0F1;
+  }
+
+  .how-works-header {
+     background: #ECF0F1;
+     padding-top: 25px;
+  }
+
+  .how-works-header h2 {
+    font-size: 5rem;
+    line-height: 6.5rem;
+  }
+
+  .how-works-header h3 {
+    font-size: 3rem;
+    margin-top: 35px;
+  }
+  
+  .offset-by-one.three.columns.step-1 {
+    display: inline-block;
+    width: 100%;
+    margin: 15px auto;
+  }
+
+  .four.columns.step-2 {
+    display: inline-block;
+    width: 100%;
+    margin: 20px; auto;
+  }
+
+  .three.columns.step-3 {
+    display: inline-block;
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .three h3 {
+    font-size: 2.25rem;
+    font-weight: bold;
+    line-height: 1.25rem;
+  }
+
+  .three p {
+    margin-top: 15px;
+    font-size: 1.75rem;
+    margin: 0 70px;
+  }
+
+  .four h3 {
+    font-size: 2.25rem;
+    font-weight: bold;
+    line-height: 1.25rem;
+  }
+
+  .four p {
+    margin-top: 15px;
+    font-size: 1.75rem;
+    margin: 0 50px;
+  }
+
+  .try-jottly-free input {
+    font-size: 1.5rem;
+    margin-top: 35px;
+  }
+
+  .testimonials {
+    height: 1000px;
+    background: url('../images/workdesk.jpg');
+    background-position: center bottom;
+    background-size: cover;
+  }
+
+  .testimonials h2 {
+    font-size: 5rem;
+    color: #fff;
+    padding-top: 200px;
+  }
+
+  .testimonials-box {
+    height: 400px;
+    margin-top: 100px;
+  }
+  .testimonials-box img {
+    text-align: center;
+    position: relative;
+    left: 35%;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .testimonials-box p {
+    font-size: 1.8rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .quote-author p {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 1.5rem;
+  }
+  
+  .testimonials-logos {
+  background: #2694D9;
+  height: 400px;
+  }
+
+  .four.columns {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .benefits {
+    height: 2400px;
+  }
+
+  .benefits h3, .benefits p {
+    text-align: center;
+  }
+
+  .benefits p {
+    font-size: 1.75rem;
+    margin: 0 30px 0 30px;
+  }
+
+  .benefits img {
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  .benefit-top {
+    margin-top: 75px;
+  }
+
+   .benefits .benefit-middle img{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin-top: 275px;
+  }
+
+  .benefit-bottom {
+    margin-top: 520px;
+  }
+
+  .five.columns {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .one-half.column {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .other-benefits {
+    height: 1300px;
+  }
+
+  .three.columns.feature {
+    width: 100%;
+    margin: 25px auto;
+  }
+
+  .three.columns.feature p{
+    font-size: 1.75rem;
+    margin-top: 25px;
+  }
+
+  .footer-cta {
+    text-align: left;
+  }
+
+  .footer-cta h2 {
+    font-size: 5rem;
+    margin-top: px;
+  }
+
+  .footer-cta p {
+    font-size: 2rem;
+    margin-top: 50px;
+  }
+
+  footer {
+    height: 560px;
+  }
+
+  .six.columns.logo-social {
+    width: 100%;
+    text-align: center;
+  }
+
+  footer .logo-social .copyright{
+    float: none;
+  }
+
+  footer .two.columns {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  footer h4 {
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  footer ul {
+    margin: 0 auto;
+    padding-bottom: 25px;
+  }
+
+  footer ul li {
+    display: inline-block;
+    text-align: center;
+    margin: 0 15px 0 15px;
+  }
+  
+  .footer-product {
+  }
+
+  .footer-company {
+   
+  }
+}
+
+/*--------------------------------*/
+
+@media (max-width: 550px) {
+  
+  .hero {
+    height: 800px;
+    background-image: url('../images/collaboratejoyfully.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center left;
+  }
+
+  .hero .tagline {
+    display: inline-block;
+    position: relative;
+    margin-top: 300px;
+  }
+
+  .hero .tagline h1 {
+    font-size: 6.0rem;     
+    color: #fff;
+  }
+
+  .hero .tagline h2 {
+    font-size: 2.0rem;
+    color: #fff;
+  }
+
+  .app-bg {
+   background: #99CC33;
+   height: 250px;
+  }
+
+ .app-bg .app-screen {
+  display: inline;
+  text-align: center;
+  margin-top: 70px;
+ }
+
+ .app-bg .app-screen img {
+  width: 100%;
+ }
+
+ .how-works {
+  height: 1200px;
+  background: #ECF0F1;
+  }
+
+  .how-works-header {
+     background: #ECF0F1;
+     padding-top: 25px;
+  }
+
+  .how-works-header h2 {
+    font-size: 4rem;
+    line-height: 4.5rem;
+  }
+
+  .how-works-header h3 {
+    font-size: 2.25rem;
+  }
+
+  .step-1, .step-2, .step-3 {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .three h3 {
+    font-size: 2.0rem;
+    font-weight: bold;
+    line-height: 1.25rem;
+  }
+
+  .three p {
+    margin-top: 15px;
+  }
+
+  .four h3 {
+    font-size: 2.0rem;
+    font-weight: bold;
+    line-height: 1.25rem;
+  }
+
+  .four p {
+    margin-top: 15px;
+  }
+  
+  .testimonials {
+    height: 675px;
+    background: url('../images/workdesk.jpg');
+    background-position: center bottom;
+    background-size: cover;
+  }
+
+  .testimonials h2 {
+    font-size: 4.25rem;
+    color: #fff;
+    padding-top: 100px;
+  }
+
+  .testimonials-box {
+    height: 400px;
+    margin-top: 50px;
+  }
+  .testimonials-box img {
+    text-align: center;
+    position: relative;
+    left: 35%;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .testimonials-box p {
+    font-size: 1.8rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .quote-author p {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 1.5rem;
+  }
+  
+  .testimonials-logos {
+  background: #2694D9;
+  height: 400px;
+  }
+
+  .benefits {
+    height: 2050px;
+  }
+
+  .benefits h3, .benefits p {
+    text-align: center;
+  }
+
+  .benefits img {
+    width: 100%
+  }
+
+  .benefit-top {
+    margin-top: 75px;
+  }
+
+  .benefits .benefit-middle img{
+    position: absolute;
+    margin-top: 250px;
+  }
+
+  .benefit-bottom {
+    margin-top: 360px;
+  }
+
+  .benefit-bottom img {
+    margin-top: 25px;
+  }
+
+  .other-benefits {
+    height: 1300px;
+  }
+
+  .footer-cta {
+    height: 700px;
+    text-align: center;
+    background-position: bottom center;
+  }
+
+  .footer-cta h2 {
+    font-size: 5.5rem;
+    text-align: center;
+  }
+
+  .footer-cta p {
+    text-align: center;
+    font-size: 2.125rem;
+    margin-top: 50px;
+  }
+
+  .logo-social {
+    text-align: center;
+    height: 150px;
+    padding-bottom: -50px;
+  }
+
+  footer {
+    height: 530px;
+  }
+
+  footer .logo-social .copyright {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+  }
+
+  footer h4 {
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  footer ul {
+    margin-top: 0;
+  }
+
+  footer ul li {
+    display: inline-block;
+    margin: 0px 15px 0px 15px;
+  }
+  
+  .footer-product {
+    height: 130px;
+    margin-top: 45px;
+  }
+
+  .footer-company {
+    margin-top: -20px;
+  }
+}

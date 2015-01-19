@@ -60,22 +60,6 @@ header div nav ul li:nth-child(4) {
   padding: 8px;
 }
 
-/* Larger than mobile */
-@media (max-width: 400px) {
-
-  .logo img {
-  margin-top: 10px;
-  display: inline-block;
-  text-align: center;
-  background: red;
-}
-
-  header {
-    background: #2694D9;
-    height: 100px;
-  }
-
-}
 
 /*==== Hero Image and Tagline Styles ====*/
 
@@ -89,7 +73,7 @@ header div nav ul li:nth-child(4) {
 .hero .tagline {
   display: inline-block;
   position: relative;
-  top: 260px;
+  margin-top: 260px;
 }
 
 .hero .tagline h1 {
@@ -175,6 +159,7 @@ header div nav ul li:nth-child(4) {
 
 .how-works-header {
    background: #ECF0F1;
+   width: 100%;
    padding-top: 30px;
 }
 
@@ -232,20 +217,27 @@ header div nav ul li:nth-child(4) {
 .testimonials h2 {
   font-size: 4.75rem;
   color: #fff;
-  padding-top: 175px;
+  padding-top: 125px;
 }
 
+.testimonials-box {
+    height: 400px;
+    margin-top: 50px;
+}
 .testimonials-box img {
-  float: left;
-  margin-right: 40px;
-  padding-top: 75px;
+    text-align: center;
+    position: relative;
+    left: 40%;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 .testimonials-box p {
   font-size: 1.8rem;
   color: #fff;
-  text-align: left;
-  margin-top: 75px;
+  text-align: center;
+  margin-left: 35px;
+  margin-right: 35px;
 }
 
 .quote-author p {
@@ -350,7 +342,7 @@ header div nav ul li:nth-child(4) {
   text-align: center;
   text-decoration: none;
   color: #fff;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 /*==== Footer Call to Action Section Styles ====*/
