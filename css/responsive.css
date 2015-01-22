@@ -404,12 +404,6 @@
     margin: 0 15px 0 15px;
   }
   
-  .footer-product {
-  }
-
-  .footer-company {
-   
-  }
 }
 
 /*--------------------------------*/
@@ -500,7 +494,7 @@
   }
   
   .testimonials {
-    height: 675px;
+    height: 750px;
     background: url('../images/workdesk.jpg');
     background-position: center bottom;
     background-size: cover;
@@ -575,7 +569,7 @@
   }
 
   .other-benefits {
-    height: 1300px;
+    height: 1350px;
   }
 
   .footer-cta {
@@ -633,41 +627,113 @@
   .footer-company {
     margin-top: -20px;
   }
-
-/*--------------------------------*/
-@media (max-width: 400px) {
-
-  .logo img {
-  margin-top: 10px;
-  display: inline-block;
-  text-align: center;
-  background: red;
 }
 
-  header {
-    background: #2694D9;
-    height: 400px;
+@media (max-width: 355px) {
+
+  header nav ul {
+    margin-right: -25px;
   }
 
-  ul.mobile-block li {
-  	display: block;
-  }
-
-  .navlinks ul {
-  	width: 100%;
-  	float: right;
+  header .logo {
+    margin-left: -10px;
   }
 
   .hero {
-  	background-image: none;
-  	background-color: green;
+    height: 450px;
+    background-size: cover;   
+    background-position: center center;
   }
 
-  .mobile-hide {
-  	display: none;
+  .hero .tagline {
+    margin-top: 175px;
   }
 
-  .benefit-middle, .benefit-top, .benefit-bottom {
-  	margin: 0 0 0 0;
+  .hero .tagline h1 {
+    font-size: 5rem;     
+    color: #fff;
   }
+
+  .hero .tagline h2 {
+    font-size: 2rem;
+    color: #fff;
+  }
+
+  .app-bg {
+    height: 200px;
+  }
+
+  .app-bg .app-screen img {
+    margin-top: 0px;
+  }
+
+  .how-works {
+    height: 1350px;
+  }
+
+  .testimonials {
+    height: 775px;
+  }
+
+  .other-benefits {
+    height: 1350px;
+  }
+
+  .other-benefits h2 {
+    font-size: 4rem;
+  }
+
+  .footer-cta {
+    height: 500px;
+  }
+
+  .footer-cta h2 {
+    font-size: 4rem;
+    margin-top: 50px;
+  }
+
+  .footer-cta button {
+    margin-top: 0px;
+  }
+  
+  footer {
+    height: 800px;
+  }
+
+  footer .logo-social img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  footer ul {
+    margin: 0 auto;
+    padding-bottom: 25px;
+    margin: 10px 0 10px 0;
+  }
+
+  footer ul li {
+    display: block;
+    text-align: center;
+    margin: 0;
+  }
+
+   footer ul {
+    margin-top: 0;
+  }
+  
+  .footer-product {
+    margin-top: 170px;
+  }
+
+  .footer-company {
+    margin-top: 25px;
+    margin-bottom: 0;
+    height: auto;
+  }
+
+  .footer-support {
+    margin-top: -15px;
+  }
+
 }

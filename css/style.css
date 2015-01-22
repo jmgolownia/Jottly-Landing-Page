@@ -26,6 +26,20 @@ p {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.li2:hover {
+  background: #fff;
+  color: #2694D9;
+}
+
 /*==== Heading and Navigation Styles====*/
 header {
   background: #2694D9;
@@ -97,6 +111,10 @@ header div nav ul li:nth-child(4) {
   border-style: none;
   text-transform: none;
   font-size: 1.5rem;
+}
+
+.works-button button:hover {
+  background: #2694D9;
 }
 
 /*==== Get Started Call to Action Section Styles ====*/
@@ -263,6 +281,10 @@ header div nav ul li:nth-child(4) {
   margin-top: 25px;
 }
 
+.testimonials-logos p a:hover {
+  font-weight: bold;
+}
+
 /*==== Jottly Benefits Section Styles ====*/
 
 .benefits {
@@ -295,8 +317,6 @@ header div nav ul li:nth-child(4) {
   height: 325px;
 }
 
-.benefit-middle {}
-
 .benefit-bottom {
   margin: 50px 0 100px 0;
 }
@@ -316,7 +336,7 @@ header div nav ul li:nth-child(4) {
 
 .other-benefits img {
   height: 125px;
-  width: 125px;
+  width: auto;
 }
 
 .other-benefits h2 {
@@ -343,6 +363,10 @@ header div nav ul li:nth-child(4) {
   text-decoration: none;
   color: #fff;
   margin-top: 20px;
+}
+
+.more-features p a:hover{
+  font-weight: bold;
 }
 
 /*==== Footer Call to Action Section Styles ====*/
@@ -376,6 +400,12 @@ header div nav ul li:nth-child(4) {
   height: 75px;
   text-transform: none;
   margin-top: 50px;
+}
+
+.footer-cta button:hover {
+  background: #2694D9;
+  color: #fff;
+  border-color: #fff;
 }
 
 /*==== Footer Section Styles ====*/

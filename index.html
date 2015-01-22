@@ -45,12 +45,6 @@
             <li class="li1">Pricing</li>
             <li class="li1">Login</li>
             <li class="li2">Free Trial</li>
-          <ul>
-            <li>Features</li>
-            <li>Pricing</li>
-            <li>Login</li>
-            <li>Free Trial</li>
-          </ul>
         </nav>
       </div>
     </div>
@@ -64,7 +58,7 @@
           <h1>Collaborate Joyfully</h1>
           <h2>Start writing, sharing and editing content with your peers simpler.</h2>
         <div class="twelve columns works-button">
-          <button>See How it Works</button>
+          <button><a href="#intro">See How it Works</a></button>
         </div>
       </div>
     </div>
@@ -85,13 +79,13 @@
             <input class="u-full-width" type="email" placeholder="you@email.com" id="exampleEmailInput">
       </div>
       <div class="two columns get-started-submit">
-          <input class="button-primary" type="submit" value="Get Started">
+          <input class="button-primary" type="submit" value="Get Started" onClick="alertMe()">
       </div>
     </div>
   </div>
 </section>
 <!-- Jottly App Screen Header -->
-<section class="app-bg">
+<section id="intro" class="app-bg">
   <div class="container">
     <div class="row">
       <div class="twelve columns app-screen">
@@ -160,7 +154,7 @@
             <img src="images/TNWLogo.png">
         </div>
         <div class="twelve columns more-testimonials">
-          <p>See more ways Jottly empowers authors and editors</p>
+          <p><a href="#">See more ways Jottly empowers authors and editors</a></p>
         </div>
       </div>
     </div>
@@ -224,7 +218,7 @@
             <p>Share and download your content in any prefered file format from PDF to HTML</p>
         </div>
         <div class="twelve columns more-features">
-          <p>See More Features to Love</p>
+          <p><a href="#">See More Features to Love</a></p>
         </div>
       </div>
     </div>
@@ -290,5 +284,10 @@
 </footer>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script>
+    function alertMe() {
+      alert("Thanks for your interest in Jottly! We're currently in beta testing. Check back soon for our official launch!" + " " + "OR if you need an awesome landing page like this for your product or business, contact Justin Golownia")
+    }
+  </script>
 </body>
 </html>
