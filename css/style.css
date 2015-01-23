@@ -1,5 +1,10 @@
 
 /*==== General Styles ====*/
+.header, section {
+  width: 100%;
+  overflow: hidden;
+}
+
 ul {
   text-decoration: none;
   text-align: center;
@@ -79,7 +84,7 @@ header div nav ul li:nth-child(4) {
 
 .hero {
   height: 715px;
-  background-image: url('../images/collaboratejoyfully.png');
+  background-image: url('../images/collaboratejoyfully.jpg');
   background-size: cover;
   background-position: center center;
 }

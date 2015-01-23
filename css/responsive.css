@@ -90,7 +90,6 @@
   
   .hero {
     height: 960px;
-    background-image: url('../images/collaboratejoyfully.png');
     background-size: auto 960px;
     background-position: center top;
   }
@@ -412,7 +411,6 @@
   
   .hero {
     height: 800px;
-    background-image: url('../images/collaboratejoyfully.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center left;
@@ -629,7 +627,7 @@
   }
 }
 
-@media (max-width: 355px) {
+@media (max-width: 360px) {
 
   header nav ul {
     margin-right: -25px;
@@ -641,8 +639,9 @@
 
   .hero {
     height: 450px;
+    max-width: 100%;
     background-size: cover;   
-    background-position: center center;
+    background-position: center;
   }
 
   .hero .tagline {
@@ -650,12 +649,12 @@
   }
 
   .hero .tagline h1 {
-    font-size: 5rem;     
+    font-size: 4rem;     
     color: #fff;
   }
 
   .hero .tagline h2 {
-    font-size: 2rem;
+    font-size: 1.75rem;
     color: #fff;
   }
 
@@ -672,7 +671,11 @@
   }
 
   .testimonials {
-    height: 775px;
+    height: 800px;
+  }
+
+  .testimonials h2 {
+    margin-top: 0;
   }
 
   .other-benefits {
